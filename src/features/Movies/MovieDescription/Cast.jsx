@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import '../../Cast.css';
 function Cast({ id, Api_key }) {
-	// https://api.themoviedb.org/3/movie/${movie_id}/credits?api_key=${Api_key}&language=en-US
 	const [castDetails, setCastDetails] = useState([]);
 	useEffect(() => {
 		async function getCast() {

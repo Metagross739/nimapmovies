@@ -6,7 +6,6 @@ function MovieDescription(props) {
 	const [movieData, setMovieData] = useState({});
 	const { uid } = useParams();
 	const Api_key = `c45a857c193f6302f2b5061c3b85e743`;
-	// https://api.themoviedb.org/3/movie/${movie_id}?api_key=${Api_key}&language=en-US
 	useEffect(() => {
 		async function getDescription() {
 			const res = await fetch(
