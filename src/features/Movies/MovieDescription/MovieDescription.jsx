@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import '../../MovieCard.css';
+import '../../../styles/MovieCard.css';
 import Cast from './Cast';
 function MovieDescription(props) {
 	const [movieData, setMovieData] = useState({});
