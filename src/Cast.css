@@ -1,0 +1,48 @@
+.cast-container {
+	margin-top: 20px;
+	padding: 0 20px;
+}
+
+.cast-title {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.cast-list {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr); /* 6 columns per row */
+	gap: 20px; /* Space between items */
+}
+
+.cast-member {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%; /* Takes up full width of grid cell */
+}
+
+.cast-image {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	object-fit: cover;
+}
+
+.cast-info {
+	margin-top: 5px;
+	text-align: center;
+}
+
+.actor-name {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.character-name {
+	font-size: 14px;
+	color: #777;
+	margin: 0;
+}

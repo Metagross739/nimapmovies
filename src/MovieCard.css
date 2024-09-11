@@ -1,0 +1,94 @@
+.movie-card {
+	display: flex; /* Align children in a row */
+	padding: 30px; /* Increase padding for more space */
+	border: 1px solid #ccc;
+	background-color: #fff;
+	margin: 20px auto;
+	max-width: 1200px; /* Increased max-width for a larger card */
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card-left {
+	display: flex;
+	flex-direction: column;
+	width: 65%; /* Slightly increased width */
+	padding-right: 25px; /* Increased padding between left and right */
+}
+
+.movie-card-info {
+	display: flex;
+	flex-direction: row; /* Poster and meta side by side */
+	align-items: flex-start;
+	margin-bottom: 15px; /* Increased space below info */
+}
+
+.poster-image {
+	width: 120px; /* Increased size for better visibility */
+	height: auto;
+	margin-right: 20px;
+	object-fit: cover;
+	border-radius: 8px; /* Slightly larger border radius */
+}
+
+.movie-card-meta {
+	display: flex;
+	flex-direction: column;
+}
+
+.movie-card-title {
+	font-size: 28px; /* Increased font size */
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+.movie-card-rating {
+	font-size: 18px; /* Larger font size */
+	margin-bottom: 8px;
+}
+
+.movie-card-runtime {
+	font-size: 18px; /* Larger font size */
+	margin-bottom: 8px;
+}
+
+.movie-card-genres-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px; /* Slightly more gap between genres */
+	margin-bottom: 10px;
+}
+
+.movie-card-genre {
+	padding: 5px 12px; /* Increased padding for better appearance */
+	background-color: #f2f2f2;
+	border-radius: 8px; /* Slightly larger radius for genres */
+	font-size: 14px; /* Larger font size */
+}
+
+.movie-card-release-date {
+	font-size: 16px; /* Larger font size */
+	margin-bottom: 8px;
+}
+
+.movie-card-overview {
+	margin-top: 15px; /* Increased space above overview */
+	font-size: 16px; /* Larger font size */
+	line-height: 1.8; /* Slightly more spacing between lines */
+	color: #555;
+}
+
+.movie-card-right {
+	width: 35%; /* Adjusted width for larger right side */
+	display: flex;
+	justify-content: flex-end;
+}
+
+.wallpaper-image {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	opacity: 0.6; /* Fade effect */
+	border-radius: 8px;
+	filter: brightness(80%); /* Maintains slight fade */
+	margin-left: 15px; /* Slightly more separation from text */
+}
