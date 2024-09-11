@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import '../../Cast.css';
+import '../../../styles/Cast.css';
 function Cast({ id, Api_key }) {
 	const [castDetails, setCastDetails] = useState([]);
 	useEffect(() => {

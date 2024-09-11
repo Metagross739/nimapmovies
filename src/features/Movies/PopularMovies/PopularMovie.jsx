@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../styles/Ap.css';
+import '../../../styles/App.css';
 function PopularMovie({ item, id, onClick }) {
 	const { poster_path: poster, title, vote_average: ratings } = item;
 	return (
